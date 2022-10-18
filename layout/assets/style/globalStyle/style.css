@@ -1,0 +1,468 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .wrapper {
+  background-color: #E1E1E1;
+}
+@media screen and (min-width: 1024px) {
+  header .headerUpper {
+    margin: auto;
+    max-width: 78vw;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  header .headerUpper .headerUpper__contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+    font-weight: 500;
+  }
+  header .headerUpper .headerUpper__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+    font-weight: 600;
+  }
+  header .headerUpper .headerUpper__nav .navItem {
+    text-decoration: none;
+    color: #222222;
+  }
+  header .headerLower {
+    margin: auto;
+    max-width: 78vw;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .headerLower .headerLower__slogan {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    color: #777777;
+    position: relative;
+  }
+  header .headerLower .headerLower__search img {
+    max-width: 100%;
+  }
+  header .headerLower .headerLower__phone {
+    margin-left: 3%;
+  }
+  header .headerLower .headerLower__phone span {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #D2334D;
+  }
+  header .headerLower .headerLower__phone p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #D2334D;
+  }
+  header nav {
+    margin: auto;
+    max-width: 78vw;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav .nav__Option {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  header nav .sale {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D2334D;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header .headerUpper {
+    margin: auto;
+    max-width: 95vw;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  header .headerUpper .headerUpper__contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45vw;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+    font-weight: 500;
+  }
+  header .headerUpper .headerUpper__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45vw;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+    font-weight: 600;
+  }
+  header .headerUpper .headerUpper__nav .navItem {
+    text-decoration: none;
+    color: #222222;
+  }
+  header .headerLower {
+    margin: auto;
+    max-width: 95vw;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .headerLower .headerLower__slogan {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    color: #777777;
+    position: relative;
+  }
+  header .headerLower .headerLower__search img {
+    max-width: 100%;
+  }
+  header .headerLower .headerLower__phone {
+    margin-left: 3%;
+  }
+  header .headerLower .headerLower__phone span {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #D2334D;
+  }
+  header .headerLower .headerLower__phone p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #D2334D;
+  }
+  header nav {
+    margin: auto;
+    max-width: 95vw;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav .nav__Option {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  header nav .sale {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D2334D;
+  }
+}
+@media screen and (max-width: 767px) {
+  header .headerUpper {
+    margin: auto;
+    max-width: 100vw;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .headerUpper .headerUpper__contacts {
+    display: none;
+  }
+  header .headerUpper .headerUpper__nav {
+    display: flex;
+    max-width: 100vw;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+    font-weight: 600;
+    flex-wrap: wrap;
+  }
+  header .headerUpper .headerUpper__nav .navItem {
+    text-decoration: none;
+    color: #222222;
+  }
+  header .headerLower {
+    margin: auto;
+    max-width: 95vw;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .headerLower .headerLower__slogan {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    color: #777777;
+    position: relative;
+  }
+  header .headerLower .headerLower__search img {
+    max-width: 100%;
+  }
+  header .headerLower .headerLower__phone {
+    margin-left: 3%;
+  }
+  header .headerLower .headerLower__phone span {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #D2334D;
+  }
+  header .headerLower .headerLower__phone p {
+    display: none;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #D2334D;
+  }
+  header nav {
+    margin: auto;
+    max-width: 95vw;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  header nav .nav__Option {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    margin: auto;
+    max-width: 78vw;
+    padding-top: 5px;
+  }
+  main .catalogueForxs {
+    display: none;
+  }
+  main .border {
+    max-width: 100%;
+  }
+  main .newProducts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  main .newProducts .newProducts_onsale1 {
+    display: none;
+  }
+  main .newProducts .newProducts_onsale3 {
+    display: none;
+  }
+  main img {
+    max-width: 100%;
+  }
+  main .catalogueItems {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  main .catalogueItems .items4 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  main .more {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  main img {
+    max-width: 100%;
+  }
+  main .catalogueItems {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+  main .catalogueItems .items4 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  main .more {
+    display: flex;
+    justify-content: center;
+  }
+  main .catalogueForxs {
+    display: none;
+  }
+}
+main .catalogueForxs {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  main {
+    margin: auto;
+    max-width: 78vw;
+    padding-top: 5px;
+  }
+  main .newProducts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  main .newProducts .newProducts_onsale1 {
+    display: none;
+  }
+  main .newProducts .newProducts_onsale3 {
+    display: none;
+  }
+  main .newProducts img {
+    max-width: 100%;
+  }
+  main .newProducts img {
+    max-width: 100%;
+  }
+  main .newProducts .catalogueItems {
+    display: none;
+  }
+  main .newProducts .catalogueItem {
+    display: none;
+  }
+  main .newProducts .more {
+    display: none;
+  }
+  main .newProducts .border {
+    display: none;
+  }
+  main .newProducts .catalogueForxs {
+    display: flex;
+    flex-direction: column;
+  }
+  main .newProducts .catalogueForxs .catalogueHeadline {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #222222;
+  }
+  main .newProducts .catalogueA {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #D2334D;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    margin: auto;
+    max-width: 78vw;
+    padding-top: 5px;
+  }
+  footer img {
+    max-width: 100%;
+  }
+  footer .footer2 {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  footer {
+    margin: auto;
+    max-width: 78vw;
+    padding-top: 5px;
+  }
+  footer img {
+    max-width: 100%;
+  }
+  footer .footer2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  footer {
+    margin: auto;
+    max-width: 95vw;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  footer img {
+    max-width: 100%;
+  }
+  footer .footer1 {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

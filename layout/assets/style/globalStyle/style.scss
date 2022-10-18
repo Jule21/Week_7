@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import '../headerStyle/style.scss';
+@import '../mainStyle/style';
+@import '../footerStyle/style.scss';
